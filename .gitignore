@@ -106,3 +106,6 @@ ENV/
 # App, Exe
 *.app
 *.exe
+F_MNIST_data/
+MNIST_data/
+Cat_Dog_data/
