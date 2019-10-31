@@ -73,20 +73,20 @@ git clone https://github.com/parksurk/DLND_Exercises.git
 cd DLND_Exercises
 ```
 
-2. Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+2. Create (and activate) a new environment, named `dlnd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__:
 	```
-	conda create -n cv-nd python=3.6
-	source activate cv-nd
+	conda create -n dlnd python=3.6
+	source activate dlnd
 	```
 	- __Windows__:
 	```
-	conda create --name cv-nd python=3.6
-	activate cv-nd
+	conda create --name dlnd python=3.6
+	activate dlnd
 	```
 
-	At this point your command line should look something like: `(cv-nd) <User>:CVND_Exercises <user>$`. The `(cv-nd)` indicates that your environment has been activated, and you can proceed with further package installations.
+	At this point your command line should look something like: `(dlnd) <User>:DLND_Exercises <user>$`. The `(dlnd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 3. Install PyTorch and torchvision; this should install the latest version of PyTorch.
 
@@ -100,17 +100,21 @@ cd DLND_Exercises
 	pip install torchvision
 	```
 
-6. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
+4. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 ```
 pip install -r requirements.txt
 ```
 
-7. That's it!
+5. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dlnd` environment.  
+```
+python -m ipykernel install --user --name dlnd --display-name "dlnd"
+```
+
+6. Run Jupyter notebook
 
 Now all of the `dlnd` libraries are available to you. Assuming you're environment is still activated, you can navigate to the Exercises repo and start looking at the notebooks:
 
 ```
-cd
 cd DLND_Exercises
 jupyter notebook
 ```
