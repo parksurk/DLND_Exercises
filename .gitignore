@@ -109,3 +109,5 @@ ENV/
 F_MNIST_data/
 MNIST_data/
 Cat_Dog_data/
+mnist_png/
+cifar/
