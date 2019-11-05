@@ -111,3 +111,4 @@ MNIST_data/
 Cat_Dog_data/
 mnist_png/
 cifar/
+logs/
