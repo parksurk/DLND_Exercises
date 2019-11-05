@@ -112,3 +112,4 @@ Cat_Dog_data/
 mnist_png/
 cifar/
 logs/
+checkpoints/
