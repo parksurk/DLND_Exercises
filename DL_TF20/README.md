@@ -122,3 +122,11 @@ conda clean -tp
 ```
 conda env remove -n dlnd
 ```
+
+# Additional JDK Installation for Konlpy
+
+1. OS와 비트 수가 일치하고, 버젼이 1.7 이상인 자바가 설치되어 있나요? 만일 그렇지 않다면 JDK를 설치 합니다. 자바와 OS의 비트 수가 꼭 일치하도록 해주세요.
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+2. JAVA_HOME을 설정 합니다
+http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html
