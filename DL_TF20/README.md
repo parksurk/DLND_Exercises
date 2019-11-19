@@ -130,3 +130,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 2. JAVA_HOME을 설정 합니다
 http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html
+
+# Additional Dataset for Hands-on for CJ OliveYoung
+- https://cjoliveyoung.cjdrive.cj.net/public/98iVt-w
+- https://cjoliveyoung.cjdrive.cj.net/public/YrKhn-w
