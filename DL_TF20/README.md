@@ -134,3 +134,12 @@ http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html
 # Additional Dataset for Hands-on for CJ OliveYoung
 - https://cjoliveyoung.cjdrive.cj.net/public/98iVt-w
 - https://cjoliveyoung.cjdrive.cj.net/public/YrKhn-w
+- 2개의 zip파일을 unzip 후 {실습 프로젝트 경로}/DLND_Exercises/DL_TF20/dataset 하위에 위치 하도록 합니다.
+- 아래와 같은 디렉토리 구성이 되어야 합니다.
+	- DLND_Exercises/DL_TF20/dataset/cifar
+		- labels.txt
+		- test
+		- train
+	- DLND_Exercises/DL_TF20/dataset/mnist_png
+		- testing
+		- training
