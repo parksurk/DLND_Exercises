@@ -1,97 +1,105 @@
-# Deep Learning with TensorFlow
+Deep Learning with TensorFlow
+=============================
 
 This repo contains notebooks and related code for [TensorFlow Tutorial](https://www.tensorflow.org/tutorials/).
 
-* **Part 1:** Introduction to PyTorch and using tensors
-* **Part 2:** Building fully-connected neural networks with PyTorch
-* **Part 3:** How to train a fully-connected network with backpropagation on MNIST
-* **Part 4:** Exercise - train a neural network on Fashion-MNIST
-* **Part 5:** Using a trained network for making predictions and validating networks
-* **Part 6:** How to save and load trained models
-* **Part 7:** Load image data with torchvision, also data augmentation
-* **Part 8:** Use transfer learning to train a state-of-the-art image classifier for dogs and cats
+-	**Part 1:** Tensors in TensorFlow
+-	**Part 2:** MNIST Exercise
+-	**Part 3:** Neural Networks in TensorFlow
+-	**Part 4:** Training Neural Networks by Keras
+-	**Part 5:** Training Neural Networks by TF Expert
+-	**Part 6:** Inference and Validation
+-	**Part 7:** Comparing TensorFlow20 with PyTorch
+-	**Part 8:** Preprocessing - Preparing Data
+-	**Part 9:** Preprocessing - Understanding Data
+-	**Part 10:** Using fit_generator - Image Transformation
+-	**Part 11:** Using fit_generator - flow from directory
+-	**Part 12:** Using flow_from_dataframe - making dataframe
+-	**Part 13:** Using flow_from_dataframe - learning with dataframe
+-	**Part 14:** Using tf.data - load image _ make batch
+-	**Part 15:** Using tf.data - fit with tf.data
+-	**Part 16:** Using callbacks - tensorboard
+-	**Part 17:** Using callbacks - learning rate schedule
+-	**Part 18:** Using callbacks - model checkpoint
+-	**Part 19:** Using post process - history check
+-	**Part 20:** Using post process - predict_generator
+-	**Part 21:** Saving and loading model - h5
+-	**Part 22:** How to challenge Kaggle with Deep Learning
 
-# Instructions
+Instructions
+============
 
 To setup our project environment to run the code in this repository, follow the instructions below.
 
-1. Install Git
-	- Linux: https://www.atlassian.com/git/tutorials/install-git#linux
-	- Mac: https://www.atlassian.com/git/tutorials/install-git#mac-os-x
-	- Windows: https://www.atlassian.com/git/tutorials/install-git#windows
-		- [Download for Windows](https://drive.google.com/file/d/1FIElyMq4C1M0sVyEAtJ61jb8NRFowPtI/view?usp=sharing)
+1.	Install Git
 
-2. Install Anaconda
+	-	Linux: https://www.atlassian.com/git/tutorials/install-git#linux
+	-	Mac: https://www.atlassian.com/git/tutorials/install-git#mac-os-x
+	-	Windows: https://www.atlassian.com/git/tutorials/install-git#windows
+		-	[Download for Windows](https://drive.google.com/file/d/1FIElyMq4C1M0sVyEAtJ61jb8NRFowPtI/view?usp=sharing)
+
+2.	Install Anaconda
 
 	**Download** the latest version of `miniconda` that matches your system.
 
 	**NOTE**: There have been reports of issues creating an environment using miniconda `v4.3.13`. If it gives you issues try versions `4.3.11` or `4.2.12` from [here](https://repo.continuum.io/miniconda/).
 
-	|        | Linux | Mac | Windows |
-	|--------|-------|-----|---------|
-	| 64-bit | [64-bit (bash installer)][lin64] | [64-bit (bash installer)][mac64] | [64-bit (exe installer)][win64]
-	| 32-bit | [32-bit (bash installer)][lin32] |  | [32-bit (exe installer)][win32]
+	|        | Linux                            | Mac                              | Windows                         |
+	|--------|----------------------------------|----------------------------------|---------------------------------|
+	| 64-bit | [64-bit (bash installer)][lin64] | [64-bit (bash installer)][mac64] | [64-bit (exe installer)][win64] |
+	| 32-bit | [32-bit (bash installer)][lin32] |                                  | [32-bit (exe installer)][win32] |
 
-	[win64]: https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe
-	[win32]: https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86.exe
-	[mac64]: https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-	[lin64]: https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-	[lin32]: https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh
+	[win64]: https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe[win32]: https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86.exe[mac64]: https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh[lin64]: https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh[lin32]: https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh
 
 	**Install** [miniconda](http://conda.pydata.org/miniconda.html) on your machine. Detailed instructions:
 
+3.	Anaconda for Windows 설치시 주의사항
 
-- Anaconda for Windows 설치시 주의사항
-	* 설치시 'Advanced Options' 단계에서 'Add Anaconda to my PATH environment variable' 옵션을 체크합니다.(Windows의 Default Command Prompt에서 Anaconda 명령어를 사용하기 위함입니다.)
-			![](assets/images/readme_1_anaconda_installation_advanced_option_add_path.png)
+	-	설치시 'Advanced Options' 단계에서 'Add Anaconda to my PATH environment variable' 옵션을 체크합니다.(Windows의 Default Command Prompt에서 Anaconda 명령어를 사용하기 위함입니다.) ![](assets/images/readme_1_anaconda_installation_advanced_option_add_path.png)
 
-3.	Clone this repository
-	- [Reference #1 : Intorduction to Git for Data Science](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
-	- [Reference #2 : Git the simple guide](https://rogerdudler.github.io/git-guide/index.ko.html)
+4.	Clone this repository
+
+	-	[Reference #1 : Intorduction to Git for Data Science](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
+	-	[Reference #2 : Git the simple guide](https://rogerdudler.github.io/git-guide/index.ko.html)
 
 	```
 	git clone https://github.com/parksurk/DLND_Exercises.git
 	cd DLND_Exercises
 	```
 
-4. Create (and activate) a new environment, named `dlnd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+5.	Create (and activate) a new environment, named `dlnd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
-	- __Linux__ or __Mac__:
-	```
-	conda create -n dlnd python=3.6
-	source activate dlnd
-	```
-	- __Windows__:
-	```
-	conda create --name dlnd python=3.6
-	activate dlnd
-	```
+	-	**Linux** or **Mac**:`
+		conda create -n dlnd python=3.6
+		source activate dlnd
+		`
+	-	**Windows**:`
+		conda create --name dlnd python=3.6
+		activate dlnd
+		`
 
 	At this point your command line should look something like: `(dlnd) <User>:DLND_Exercises <user>$`. The `(dlnd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
-5. Install PyTorch and torchvision; this should install the latest version of PyTorch.
+6.	Install PyTorch and torchvision; this should install the latest version of PyTorch.
 
-	- __Linux__ or __Mac__:
-	```
-	pip install tensorflow
-	```
-	- __Windows__:
-	```
-	pip install tensorflow
-	```
+	-	**Linux** or **Mac**:`
+		pip install tensorflow
+		`
+	-	**Windows**:`
+		pip install tensorflow
+		`
 
-6. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
-	```
+7.	Install a few required pip packages, which are specified in the requirements text file (including OpenCV).`
 	cd DL_TF20
 	pip install -r requirements.txt
-	```
+	`
 
-7. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dlnd` environment.  
-	```
+8.	Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dlnd` environment.  
+	`
 	python -m ipykernel install --user --name dlnd --display-name "dlnd"
-	```
+	`
 
-8. Run Jupyter notebook
+9.	Run Jupyter notebook
 
 	Now all of the `dlnd` libraries are available to you. Assuming you're environment is still activated, you can navigate to the Exercises repo and start looking at the notebooks:
 
@@ -101,7 +109,6 @@ To setup our project environment to run the code in this repository, follow the 
 	```
 
 	To exit the environment when you have completed your work session, simply close the terminal window.
-
 
 ### Notes on environment creation and deletion
 
@@ -123,23 +130,24 @@ conda clean -tp
 conda env remove -n dlnd
 ```
 
-# Additional JDK Installation for Konlpy
+Additional JDK Installation for Konlpy
+======================================
 
-1. OS와 비트 수가 일치하고, 버젼이 1.7 이상인 자바가 설치되어 있나요? 만일 그렇지 않다면 JDK를 설치 합니다. 자바와 OS의 비트 수가 꼭 일치하도록 해주세요.
-http://www.oracle.com/technetwork/java/javase/downloads/index.html
+1.	OS와 비트 수가 일치하고, 버젼이 1.7 이상인 자바가 설치되어 있나요? 만일 그렇지 않다면 JDK를 설치 합니다. 자바와 OS의 비트 수가 꼭 일치하도록 해주세요. http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-2. JAVA_HOME을 설정 합니다
-http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html
+2.	JAVA_HOME을 설정 합니다 http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html
 
-# Additional Dataset for Hands-on for CJ OliveYoung
-- https://cjoliveyoung.cjdrive.cj.net/public/98iVt-w
-- https://cjoliveyoung.cjdrive.cj.net/public/YrKhn-w
-- 2개의 zip파일을 unzip 후 {실습 프로젝트 경로}/DLND_Exercises/DL_TF20/dataset 하위에 위치 하도록 합니다.
-- 아래와 같은 디렉토리 구성이 되어야 합니다.
-	- DLND_Exercises/DL_TF20/dataset/cifar
-		- labels.txt
-		- test
-		- train
-	- DLND_Exercises/DL_TF20/dataset/mnist_png
-		- testing
-		- training
+Additional Dataset for Hands-on for CJ OliveYoung
+=================================================
+
+-	https://cjoliveyoung.cjdrive.cj.net/public/98iVt-w
+-	https://cjoliveyoung.cjdrive.cj.net/public/YrKhn-w
+-	2개의 zip파일을 unzip 후 {실습 프로젝트 경로}/DLND_Exercises/DL_TF20/dataset 하위에 위치 하도록 합니다.
+-	아래와 같은 디렉토리 구성이 되어야 합니다.
+	-	DLND_Exercises/DL_TF20/dataset/cifar
+		-	labels.txt
+		-	test
+		-	train
+	-	DLND_Exercises/DL_TF20/dataset/mnist_png
+		-	testing
+		-	training
