@@ -37,8 +37,7 @@ Using Anaconda consists of the following:
 
 ---
 
-1. Installation
----------------
+1.	Installation ---------------
 
 **Download** the latest version of `miniconda` that matches your system.
 
@@ -55,8 +54,8 @@ Using Anaconda consists of the following:
 -	**Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
 -	**Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
 
-2. Create and Activate the Environment
---------------------------------------
+-	Create and Activate the Environment
+	-----------------------------------
 
 For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work.
 
