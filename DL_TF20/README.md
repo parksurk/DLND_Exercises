@@ -67,14 +67,19 @@ To setup our project environment to run the code in this repository, follow the 
 
 5.	Create (and activate) a new environment, named `dlnd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
-	-	**Linux** or **Mac**:`
-		conda create -n dlnd python=3.6
-		source activate dlnd
-		`
-	-	**Windows**:`
-		conda create --name dlnd python=3.6
-		activate dlnd
-		`
+	-	**Linux** or **Mac**:
+
+	```
+	    conda create -n dlnd python=3.6
+	    source activate dlnd
+	```
+
+	-	**Windows**:
+
+	```
+	    conda create --name dlnd python=3.6
+	    activate dlnd
+	```
 
 	At this point your command line should look something like: `(dlnd) <User>:DLND_Exercises <user>$`. The `(dlnd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
@@ -90,10 +95,12 @@ To setup our project environment to run the code in this repository, follow the 
 		pip install tensorflow
 		`
 
-7.	Install a few required pip packages, which are specified in the requirements text file (including OpenCV).`
+7.	Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
+
+	```
 	cd DL_TF20
 	pip install -r requirements.txt
-	`
+	```
 
 8.	Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `dlnd` environment.  
 	`

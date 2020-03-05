@@ -80,14 +80,19 @@ cd DLND_Exercises
 
 1.	Create (and activate) a new environment, named `dlnd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
-	-	**Linux** or **Mac**:`
-		conda create -n dlnd python=3.6
-		source activate dlnd
-		`
-	-	**Windows**:`
-		conda create --name dlnd python=3.6
-		activate dlnd
-		`
+	-	**Linux** or **Mac**:
+
+	```
+	    conda create -n dlnd python=3.6
+	    source activate dlnd
+	```
+
+	-	**Windows**:
+
+	```
+	    conda create --name dlnd python=3.6
+	    activate dlnd
+	```
 
 	At this point your command line should look something like: `(dlnd) <User>:DLND_Exercises <user>$`. The `(dlnd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
@@ -104,6 +109,7 @@ cd DLND_Exercises
 3.	Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 
 ```
+cd DL_PyTorch
 pip install -r requirements.txt
 ```
 
