@@ -45,8 +45,8 @@ Using Anaconda consists of the following:
 
 |        | Linux                                                                                            | Mac                                                                                               | Windows                                                                                            |
 |--------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| 64-bit | [64-bit (bash installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh) | [64-bit (bash installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh) | [64-bit (exe installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe) |
-| 32-bit | [32-bit (bash installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh)    |                                                                                                   | [32-bit (exe installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86.exe)    |
+| 64-bit | [64-bit (bash installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh) | [64-bit (pkg installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg) | [64-bit (exe installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe) |
+| 32-bit | [32-bit (bash installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh)    |                                                                                                   | [32-bit (exe installer)](https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe) |
 
 **Install** [miniconda](http://conda.pydata.org/miniconda.html) on your machine. Detailed instructions:
 
