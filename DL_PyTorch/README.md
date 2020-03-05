@@ -93,13 +93,13 @@ cd DLND_Exercises
 
 2.	Install PyTorch and torchvision; this should install the latest version of PyTorch.
 
+	-	Please, refer to the PyTorch Installation Guide : https://pytorch.org/get-started/locally/
+
 	-	**Linux** or **Mac**:`
 		conda install pytorch torchvision -c pytorch
 		`
-	-	**Windows**:`
-		conda install pytorch-cpu -c pytorch
-		pip install torchvision
-		`
+
+	-	**Windows**:\` conda install pytorch-cpu -c pytorch pip install torchvision\`
 
 3.	Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 

@@ -78,11 +78,14 @@ To setup our project environment to run the code in this repository, follow the 
 
 	At this point your command line should look something like: `(dlnd) <User>:DLND_Exercises <user>$`. The `(dlnd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
-6.	Install PyTorch and torchvision; this should install the latest version of PyTorch.
+6.	Install TensorFlow; this should install the latest version of TensorFlow.
+
+	-	Please, refer to the TensorFlow Installation Guide : https://www.tensorflow.org/install
 
 	-	**Linux** or **Mac**:`
 		pip install tensorflow
 		`
+
 	-	**Windows**:`
 		pip install tensorflow
 		`
